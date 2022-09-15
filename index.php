@@ -139,7 +139,7 @@ $categories = json_decode($response)->data->categories;
 <!-- <img src="https://imagedelivery.net/95QNzrEeP7RU5l5WdbyrKw/135c7e4f-96c5-4054-4301-b5a4eb3d7700/shopitem" alt="" class="product-img" /> -->
 
 <!-- footer -->
-<footer class="p-5 md-p-l5 bg-indigo-lightest-10">
+<footer class="p-5 md-p-l5 bg-indigo-lightest-10" style="background-color: rgba(0, 0, 0, 0.1) !important;">
     <div class="flex flex-wrap">
         <div class="md-w-25pc mb-10">
             <img src="assets/images/logo_gxd.png" class="w-l5" alt="">
@@ -171,8 +171,7 @@ $categories = json_decode($response)->data->categories;
             </div>
         </div>
     </div>
-
-
+    <p>Designed and coded by Valow</p>
 </footer>
     <i class="w-4" data-feather="download"></i>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
