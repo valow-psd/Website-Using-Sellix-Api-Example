@@ -263,6 +263,8 @@ footer .container .socials img {
 }
 /*# sourceMappingURL=style.css.map */
 
+
+/*
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -281,16 +283,30 @@ footer .container .socials img {
   background-color: #5A4FCF;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-  /*padding: 2rem;*/
   max-width: 14rem;
   border-radius: 4px;
   max-width: 50rem;
+  z-index: 0;
 }
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+  z-index: 0;
 }
+*/
+
+.underlineez {
+
+  background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, rgb(90, 79, 207) 16%, rgb(90, 79, 207) 41%, rgba(255,0,255,0) 40%);
+}
+
+.underlineez {
+  padding: 0 0.1em 0 0.1em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 
 #bg{
   position : absolute;

@@ -43,27 +43,29 @@ $categories = json_decode($response)->data->categories;
 </head>
 
 <body class="bg-black muli">
+
+
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black " style="  position: absolute;
+  left: 0px;
+  top: 0px; z-index: 1;box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+        <div class="flex justify-between">
+            <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l2 w-auto" src="assets/images/logo_gxd.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+               class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center" style="font-family: Muli; font-weight: 800; font-size: 120%;">
+            <a href="#home" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Home</a>
+            <a href="#features" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Features</a>
+            <a href="#pricing" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Pricing</a>
+            <a href="#blog" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Blog</a>
+            <!-- <a href="#" class="button bg-white black fw-600 no-underline mx-5">Register</a> -->
+        </div>
+    </nav>
 <div id="bg"></div>
-
-<nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
-    <div class="flex justify-between">
-        <a href="#" class="flex items-center p-2 mr-4 no-underline">
-            <img class="max-h-l2 w-auto" src="assets/images/logo_gxd.png" />
-        </a>
-        <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
-           class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
-            <i data-feather="menu"></i>
-        </a>
-    </div>
-    <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center" style="font-family: Muli; font-weight: 800; font-size: 120%;">
-        <a href="#home" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Home</a>
-        <a href="#features" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Features</a>
-        <a href="#pricing" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Pricing</a>
-        <a href="#blog" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Blog</a>
-        <!-- <a href="#" class="button bg-white black fw-600 no-underline mx-5">Register</a> -->
-    </div>
-</nav>
-
 
 <!-- hero section -->
 <section id="home" class="min-h-100vh flex justify-start items-center">
@@ -71,11 +73,11 @@ $categories = json_decode($response)->data->categories;
 
         <div class="mx-5 md-mx-l5">
 
-            <div class="hover-underline-animation">
-                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900">Your Digital Goods</h1>
-            </div>
-            <div class="hover-underline-animation">
-                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900">At The Best Price</h1>
+
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900"><span class="underlineez">Your Digital Goods</span></h1>
+
+            <div class="hover-underline-animation">>
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900"><span class="underlineez">At The Best Price</span></h1>
             </div>
         </div>
 </section>
