@@ -285,10 +285,17 @@ footer .container .socials img {
   max-width: 14rem;
   border-radius: 4px;
   max-width: 50rem;
-
 }
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+#bg{
+  position : absolute;
+  top : 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

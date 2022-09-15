@@ -43,7 +43,7 @@ $categories = json_decode($response)->data->categories;
 </head>
 
 <body class="bg-black muli">
-<div id="particles-js"></div>
+<div id="bg"></div>
 
 <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
     <div class="flex justify-between">
@@ -177,6 +177,8 @@ $categories = json_decode($response)->data->categories;
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" src="assets/js/particles.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
